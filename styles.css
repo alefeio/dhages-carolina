@@ -110,8 +110,8 @@ p {
     }
 
     .content-section video {
-        width: 360px;
-        height: 640px;
+        width: 240px;
+        height: 426px;
     }
 }
 
@@ -151,6 +151,11 @@ p {
     flex: 1;
 }
 
+.turismo-section video {
+    width: 360px;
+    height: 640px;
+}
+
 /* Responsividade para terceira sessão */
 @media (max-width: 768px) {
     .turismo-section {
@@ -164,6 +169,11 @@ p {
 
     .turismo-box {
         margin-bottom: 20px;
+    }
+
+    .turismo-section video {
+        width: 240px;
+        height: 426px;
     }
 }
 
@@ -201,6 +211,11 @@ p {
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.depoimentos-section video {
+    width: 240px;
+        height: 426px;
 }
 
 @media (max-width: 760px) {
