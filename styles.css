@@ -97,11 +97,21 @@ p {
     gap: 10%;
 }
 
+.content-section video {
+    width: 480px;
+    height: 854px;
+}
+
 /* Responsividade para segunda sessão */
 @media (max-width: 768px) {
     .content-section {
         flex-direction: column;
         padding: 20px;
+    }
+
+    .content-section video {
+        width: 360px;
+        height: 640px;
     }
 }
 
