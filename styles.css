@@ -107,6 +107,10 @@ p {
     .hero-content {
         margin: 60px;
     }
+
+    .hero-content h1 {
+        font-size: 2.5em;
+    }
 }
 
 .content-left h1 {
@@ -168,6 +172,10 @@ p {
     .turismo-section video {
         width: 240px;
         height: 426px;
+    }
+
+    .content-left h1 {
+        font-size: 2rem;
     }
 }
 
@@ -261,6 +269,8 @@ p {
 
 .pacote ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 /* Formulário de Contato */
