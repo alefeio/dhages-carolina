@@ -18,6 +18,10 @@ p {
     line-height: 1.6;
 }
 
+.content {
+    max-width: 1366px;
+}
+
 /* Sessão Hero - Vídeo de fundo */
 .hero-section {}
 
@@ -76,7 +80,7 @@ p {
 }
 
 /* Sessão Sobre */
-.content-section {
+.content-section section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -92,7 +96,7 @@ p {
 }
 
 /* Sessão Frota */
-.frota-section {
+.frota-section section {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -315,7 +319,7 @@ p {
     display: inline-block;
     width: 50%;
     background-color: #2ecc71;
-    margin: 20px;
+    margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
 }
@@ -333,7 +337,8 @@ p {
     padding: 60px;
 }
 
-form {
+.contato-section form {
+    margin: auto;
     display: inline-block;
     width: 50%;
     text-align: left;
