@@ -67,7 +67,7 @@ p {
     z-index: 2;
     color: white;
     text-align: center;
-    margin: 200px 60px;
+    margin: 300px 60px 200px;
 }
 
 .hero-content h1 {
@@ -81,7 +81,7 @@ p {
 }
 
 /* Sessão Sobre */
-.content-section section {
+.content-section aside {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -89,6 +89,7 @@ p {
     background-color: #fff;
     padding: 60px;
     gap: 10%;
+    border-radius: 50px 50px 0 0;
 }
 
 .content-section video {
@@ -102,7 +103,6 @@ p {
     justify-content: space-between;
     align-items: flex-end;
     text-align: left;
-    background-color: #dfe4e6;
     padding: 60px;
     gap: 5%;
 }
