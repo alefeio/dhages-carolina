@@ -19,8 +19,7 @@ p {
 }
 
 /* Sessão Hero - Vídeo de fundo */
-.hero-section {
-}
+.hero-section {}
 
 /* Responsividade para telas menores */
 @media (max-width: 768px) {
@@ -92,6 +91,22 @@ p {
     height: 854px;
 }
 
+/* Sessão Frota */
+.frota-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: left;
+    background-color: #dfe4e6;
+    padding: 60px;
+    gap: 5%;
+}
+
+.frota-section video {
+    width: 360px;
+    height: 640px;
+}
+
 /* Responsividade para segunda sessão */
 @media (max-width: 768px) {
     .content-section {
@@ -100,6 +115,16 @@ p {
     }
 
     .content-section video {
+        width: 240px;
+        height: 426px;
+    }
+
+    .frota-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .frota-section video {
         width: 240px;
         height: 426px;
     }
@@ -126,6 +151,20 @@ p {
     font-size: 1.2rem;
 }
 
+.content-left aside {
+    display: flex;
+    align-items: center;
+}
+
+.content-left aside video {
+    width: 144px;
+    height: 256px;
+    margin: 20px;
+}
+
+.content-left aside img {
+    height: 256px;
+}
 
 .content-right video {
     padding: 20px;
@@ -159,6 +198,7 @@ p {
     .turismo-section {
         display: flex;
         flex-direction: column;
+        padding: 20px;
     }
 
     .turismo-section aside {
@@ -176,6 +216,19 @@ p {
 
     .content-left h1 {
         font-size: 2rem;
+    }
+
+    .content-left aside {
+        flex-direction: column;
+    }
+    
+    .content-left aside video {
+        width: 240px;
+        height: 426px;
+    }
+
+    .content-left aside img {
+        height: auto;
     }
 }
 
@@ -217,7 +270,7 @@ p {
 
 .depoimentos-section video {
     width: 240px;
-        height: 426px;
+    height: 426px;
 }
 
 @media (max-width: 760px) {
@@ -228,7 +281,7 @@ p {
     .depoimentos-section {
         display: flex;
         flex-direction: column;
-        padding: 0px;
+        padding: 20px;
     }
 
     .carousel {
@@ -250,7 +303,7 @@ p {
 .valores-section {
     background-color: #27ae60;
     color: white;
-    padding: 60px 20px;
+    padding: 60px;
     text-align: center;
 }
 
@@ -277,14 +330,14 @@ p {
 .contato-section {
     background-color: #f9f9f9;
     text-align: center;
-    padding: 60px 20px;
+    padding: 60px;
 }
 
 form {
     display: inline-block;
     width: 50%;
     text-align: left;
-    
+
 }
 
 form input,
@@ -312,17 +365,17 @@ form button:hover {
 
 /* Responsividade para Formulário */
 @media (max-width: 768px) {
-    .valores-section, .contato-section {
+
+    .valores-section,
+    .contato-section {
         padding: 60px 0;
     }
-    
+
     .pacote {
         width: 70%;
     }
 
-    .contato-section form {
-        
-    }
+    .contato-section form {}
 
     form {
         width: 70%;
