@@ -1,23 +1,6 @@
 // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
 window.onscroll = function () { scrollFunction() };
 
-// <!-- Google tag (gtag.js) event - delayed navigation helper -->
-// Helper function to delay opening a URL until a gtag event is sent.
-// Call it in response to an action that should navigate to a URL.
-function gtagSendEvent(url) {
-    var callback = function () {
-        if (typeof url === 'string') {
-            window.location = url;
-        }
-    };
-    gtag('event', 'ads_conversion_Enviar_formul_rio_de_le_1', {
-        'event_callback': callback,
-        'event_timeout': 2000,
-        // <event_parameters>
-    });
-    return false;
-}
-
 document.getElementById("contactForm").addEventListener("submit", function (event) {
     event.preventDefault(); // Impede o envio padrão do formulário
 
@@ -63,7 +46,7 @@ document.getElementById("contactForm").addEventListener("submit", function (even
             alert("Erro ao enviar a mensagem. Tente novamente mais tarde.");
         });
 
-    gtagSendEvent();
+    window.location.href = "https://lencois-maranhenses.dhagesturismo.com.br/obrigado.html";
 });
 
 function scrollFunction() {
