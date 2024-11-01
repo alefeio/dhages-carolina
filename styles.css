@@ -87,6 +87,31 @@ header nav ul li a {
     width: 150px;
 }
 
+.wpp {
+    position: fixed;
+    right: 2%;
+    bottom: 0;
+    display: flex;
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px 30px 0 0;
+    padding: 0 .4rem;
+    background: #ffd873;
+    gap: .4rem;
+}
+
+.wpp img {
+    width: 50px;
+}
+
+.wpp input {
+    border: 0;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 30px;
+}
+
 /* Style the active/current link */
 #navbar a.active {
     background-color: dodgerblue;
@@ -332,7 +357,7 @@ header nav ul li a {
     .content-left aside {
         flex-direction: column;
     }
-    
+
     .content-left aside video {
         width: 240px;
         height: 426px;
@@ -466,7 +491,8 @@ header nav ul li a {
     text-align: left;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     padding: 10px 0;
     margin: 10px 0;
@@ -498,6 +524,7 @@ footer {
 
 /* Responsividade para Formulário */
 @media (max-width: 768px) {
+
     .valores-section,
     .contato-section {
         padding: 60px 0;
