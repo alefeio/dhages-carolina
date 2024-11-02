@@ -543,3 +543,7 @@ footer {
         padding: 20px;
     }
 }
+
+.inputName {
+    display: none;
+}
