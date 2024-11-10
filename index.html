@@ -35,10 +35,16 @@
 </head>
 
 <body>
-    <aside>
-        <input id="whatsapp" name="whatsapp" type="number" placeholder="Digite seu número" oninput="verificarWhatsApp()" />
-        <input id="nomeZap" name="nomeZap" type="text" placeholder="Seu nome" class="inputName" />
-    </aside>
+    <div class="wpp">
+        <aside>
+            <input id="whatsapp" name="whatsapp" type="number" placeholder="Digite seu número"
+                oninput="verificarWhatsApp()" />
+            <input id="nomeZap" name="nomeZap" type="text" placeholder="Seu nome" class="inputName" />
+        </aside>
+        <a href="#" onclick="sendMessage()">
+            <img src="assets/wpp.png" alt="WhatsApp" />
+        </a>
+    </div>
     <!-- Sessão 1: Vídeo de fundo e frase de impacto -->
     <header id="hero" class="hero-section">
         <nav id="navbar">
